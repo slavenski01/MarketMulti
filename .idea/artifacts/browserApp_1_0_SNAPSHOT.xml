@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="browserApp-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/browserApp/build/libs</output-path>
+    <root id="archive" name="browserApp-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="MarketMulti.browserApp.main" />
+    </root>
+  </artifact>
+</component>
