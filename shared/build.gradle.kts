@@ -8,10 +8,6 @@ plugins {
 group = "me.vkuznetsov"
 version = "1.0-SNAPSHOT"
 
-repositories {
-    google()
-}
-
 kotlin {
     js(IR) {
         binaries.executable()
@@ -36,7 +32,9 @@ kotlin {
             }
         }
         val commonTest by getting
-        val jsMain by getting
+        val jsMain by getting {
+
+        }
         val jsTest by getting
         val androidMain by getting {
             dependencies {
